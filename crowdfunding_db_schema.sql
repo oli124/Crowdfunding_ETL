@@ -7,8 +7,8 @@ email VARCHAR(100)
 
 campaign
 --------
-cf_id INT
-contact_id INT
+cf_id INT PK
+contact_id INT FK
 company_name VARCHAR(100)
 description VARCHAR(100)
 goal INT
